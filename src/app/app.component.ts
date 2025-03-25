@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { SocialMediaComponent } from './src/components/social-media/social-media.component';
-import { ToolbarComponent } from './src/components/toolbar/toolbar.component';
-import { WelcomeComponent } from './src/components/welcome/welcome.component';
+import { SocialMediaComponent } from './src/social-media/social-media.component';
+import { ToolbarComponent } from './src/toolbar/toolbar.component';
+import { TrailerVideoComponent } from './src/trailer-video';
+import { WelcomeComponent } from './src/welcome/welcome.component';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { WelcomeComponent } from './src/components/welcome/welcome.component';
     ToolbarComponent,
     WelcomeComponent,
     SocialMediaComponent,
+    TrailerVideoComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

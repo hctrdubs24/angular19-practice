@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { WobbleDirective } from '../directives/animations';
-import { MainContainerComponent } from '../layout';
+import { MainContainerComponent, WobbleDirective } from '../components';
 import { SocialMediaElement } from './models';
 import { SocialMediaElementComponent } from './social-media-element/social-media-element.component';
 
